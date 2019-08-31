@@ -1,0 +1,66 @@
+body {
+	margin: 0 auto;
+	background-image: url("../images/Background_Transparent.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+
+@font-face {
+	font-family: loginFont;
+	src: url(../fonts/Crabmeal.otf);
+}
+
+.container {
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	background-color: rgba(52, 73, 94, 0.7);
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 150px;
+
+}
+
+.container img {
+	width: 200px;
+	height: 200px;
+	margin-top: -90px;
+}
+
+
+.title {
+	font-family: loginFont;
+	text-align: center;
+	font-size: 60px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+}
+
+input {
+	height: 45px;
+	width: 300px;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 30px;
+}
+
+form-login::before {
+	content: "";
+	position: absolute;
+	font-family: fantasy;
+	font-size: 30px;
+}
+
+.form-button input {
+	height: 50px;
+	width: 150px;
+	padding: 10px;
+	background-color: rgb(224, 11, 50);
+	font-style: oblique;
+	font-size: 22px;
+}
+
+

@@ -1,0 +1,125 @@
+body {
+	background-color: rgb(93, 173, 226);
+	background-size: auto;
+	position: relative;
+	margin: 0;
+}
+
+header {
+	position: relative;
+	background: black;
+	color: white;
+	padding: 8px 0px 6px 40px;
+	height: 40px;
+}
+
+header h1 {
+	display: inline;
+	font-family: loginFont;
+	font-weight: 400;
+	font-size: 32px;
+	float: left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li form {
+	margin-top: -5px;
+
+}
+
+.homered {
+	background-color: red;
+	padding: 30px 10px 15px 10px;
+}
+
+.divider {
+	background-color: red;
+	height: 5px;
+}
+
+#search {
+	width: 200px;
+	padding: 7px;
+	border: 1px solid red;
+}
+
+#submit {
+	padding: 7px;
+	background: red;
+	border: 1px solid red;
+	color: white;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background: #333;
+	transition: all 0.40s;
+}
+
+
+.container {
+	width: 1000px;
+	height: 800px;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
+
+}
+
+.container h2 {
+	font-size: 35px;
+	text-align: center;
+	color: rgb(184, 79, 30);
+	text-decoration: underline;
+	margin: 0 auto;
+}
+
+.data {
+	margin: auto;
+	font-size: 18px;
+	text-align: center;
+}
+
+.subheading {
+	color: rgb(187, 160, 23);
+	font-size: 25px;
+}
+
+.clapbutton {
+	align-content: left;
+}
+.clapbutton img {
+	align-self: 50px;
+	margin: -6px;
+	width: 50px;
+	height: 50px;
+
+}
+
+.count {
+	font-size: 20px;
+}

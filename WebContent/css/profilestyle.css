@@ -1,0 +1,200 @@
+html,body {
+    background: #efefef;
+}
+
+
+header {
+  position: relative;
+  background: black;
+  color: white;
+  padding: 8px 0px 6px 40px;
+  height: 40px;
+}
+
+header {
+  background: #eee;
+  background-image: url("../images/profile-back.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+header h1 {
+  display: inline;
+  font-family: loginFont;
+  font-weight: 400;
+  font-size: 32px;
+  float: left;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  color: white;
+  float: left;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+nav ul li a {
+	text-decoration: none;
+  	color: white;
+  
+}
+
+nav ul li form {
+  margin-top: -5px;
+
+}
+
+.homered {
+	text-decoration: none;
+  background-color: red;
+  padding: 30px 10px 15px 10px;
+}
+
+.divider {
+  background-color: red;
+  height: 5px;
+}
+
+#search {
+  width: 200px;
+  padding: 7px;
+  border: 1px solid red;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 30px auto 30px;
+  padding: 0 !important;
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
+}
+
+
+
+@media (max-width:800px) {
+  header {
+    height: 150px;
+  } 
+  
+  header i {
+    right: -90%;
+  }
+}
+
+main {
+      padding: 20px 20px 0px 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin-top: -120px;
+  border-radius: 100px;
+  border: 4px solid #fff;
+}
+
+.name {
+  margin-top: 20px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18pt;
+  color: #777;
+}
+
+.info {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11pt;
+  color: #aaa;
+}
+
+#heading {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.claps {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20pt;
+  color: #5181A7;
+}
+
+.list {
+  margin-top: -80px;
+  margin-left: 350px; 
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.list a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  font-size: 30px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

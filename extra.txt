@@ -1,0 +1,45 @@
+try {
+				HttpSession session = request.getSession(false);
+				if(request.getSession()!=null) {
+				ArticleDB articleserv = new ArticleDB();
+			
+		          user=(User)session.getAttribute("currentSessionUser");
+		          //arc.setFirstName("neha")
+		          String email=articleserv.dbquery(user);
+		            /*request.getSession().setAttribute("fname",user.getUsername()); */// Will be available as ${products} in JSP
+		          session.setAttribute("fname", user.getFirstName()); //user.getFirstName());
+				 session.setAttribute("email", email);
+				 target = "WEB-INF/about.jsp";}
+				else
+					System.out.println("Session not created!");
+		        } catch (Exception e) {
+		            e.printStackTrace();
+		        }
+			response.getWriter().append("Served at: ").append(request.getContextPath());
+			
+			
+@Override
+	public List<User> about(String username) {
+		
+		String query = "SELECT fname, lname FROM Users WHERE email=?";
+		List<User> userdata = new ArrayList<User>();
+		System.out.println("hello");
+		Connection connection = DBUtil.getConnection();
+		try {
+			System.out.println("hello1");
+			PreparedStatement ps = connection.prepareStatement(query);
+			ps.setString(1, username);
+			ResultSet rs= ps.executeQuery(query);
+			System.out.println(rs.next());
+			while (rs.next()) {
+				User current = new User();
+				current.setFirstName(rs.getString("fname"));
+				current.setLastName(rs.getString("lname"));;
+				userdata.add(current);
+			}
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		return userdata;
+	}

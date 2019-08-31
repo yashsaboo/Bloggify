@@ -9,6 +9,6 @@ Codes on Important Concepts in Java Advanced.
 Java Runtime Environment (built with Eclipse)
 
 ## About the Company
-[Netcracker Technology] (http://www.netcracker.com), a wholly owned subsidiary of NEC Corporation, provides software solutions and professional services in the following domains- cloud, virtualization and mobile ecosystem.
+[Netcracker Technology](http://www.netcracker.com), a wholly owned subsidiary of NEC Corporation, provides software solutions and professional services in the following domains- cloud, virtualization and mobile ecosystem.
 
 ### Contributor: [Yash Saboo](https://github.com/yashsaboo)

@@ -1,5 +1,6 @@
 # Bloggify
-In 2017, I was selected among a large pool of candidates to train as an industrial Java programmer at Netcracker Technology, where I dealt with Java Advanced and successfully completed their program. This repository features the final project, called ‘Bloggify:Twitter without Limits’, which is an online publishing platform for social journalism built using Java and Oracle database coupled with Model-View-Controller(MVC) design pattern (specifically, DTO, DAO and Controllers in Java). 
+In 2017, I was selected among a large pool of candidates to train as an industrial Java programmer at Netcracker Technology, where I dealt with Java Advanced and successfully completed their program. This repository features the final project, called ‘Bloggify: Twitter without Limits’, which is an online publishing platform for social journalism built using Java and Oracle database coupled with Model-View-Controller(MVC) design pattern (specifically, DTO, DAO and Controllers in Java). 
+
 To explore the package and understand the distribution of modules, along with its usgae, please refer to the AboutBloggify.pdf file.
 
 ## File Details
